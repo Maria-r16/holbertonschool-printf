@@ -14,7 +14,7 @@ int _printf(const char *format, ...)
 va_list const;
 int count;
 
-format_t get_opt[] = {
+print_f get_opt[] = {
 {"c", type_char},
 {"s", type_string},
 {"i", type_decimal},
